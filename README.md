@@ -2,7 +2,7 @@
 
 The Wine Dataset from the UCI machine learning repository consists of the results of a chemical analysis of wines grown within the same region in Italy but derived from three different cultivers. The analysis determined 13 constituents (attributes) found in the three types of wine. The K-Nearest Neighbors Classifier is a supervised learning algorithm that will be used to classify and test the perfomance of this model. 80% of the data will be reserved for training and the remaining 20% will be used for testing. The standardization/scaling of features was implemented to mitigate the potential dominance of one feature over another, ensuring a uniform scale for all features. This model evaluation deviates from standard binary classification, as it involves three classes instead of two. Consequently, adjustments were made to the Confusion Matrix calculation to accommodate the multi-class nature of the problem. Additionally, the random state was considered in the process to make results reproducible and to compare models or changes under the same initial conditions.
 
-Important note: Overall model accuracy with a random state of 42 was 94.4%, but, as noted in the code, when a random state of 73 was used, model accuracy improved to 100%.
+**Important Note:** Overall model accuracy with a random state of 42 was 94.4%, but, as noted in the code, when a random state of 73 was used, model accuracy improved to 100%.
 
 ## 🛠️ Technologies Used:
 
