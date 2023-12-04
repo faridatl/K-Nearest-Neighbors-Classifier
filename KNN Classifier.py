@@ -27,7 +27,7 @@ from sklearn.metrics import confusion_matrix # compute confusion matrix for k ne
 """
 Dataset: read in csv and become familiar with dataset 
 """
-wine = pd.read_csv("/Users/faridatlawal/DTSC710/Assignment2/wine.data", header=None) # read in dataset from file on computer and save to a variable name for access in python
+wine = pd.read_csv("/Users/faridatl/Downloads/wine.data", header=None) # read in dataset from file on computer and save to a variable name for access in python
 wine.isnull().sum() # checks for missing variables in data set
 
 
